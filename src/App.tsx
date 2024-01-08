@@ -90,6 +90,16 @@ Oh good question, haven't dealt with multiple images before â€“ PRs welcome! ðŸ‘
 
   return (
     <>
+      <header>
+        <h1>UnNovel</h1>
+        <a
+          href="https://github.com/ABSanthosh/unnovel"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {Icons.github} ABSanthosh/unnovel
+        </a>
+      </header>
       <Editor items={[palmApi]} initialContent={temp} />
     </>
   );
