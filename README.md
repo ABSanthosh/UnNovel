@@ -19,7 +19,7 @@
 
 [UnNovel](https://unnovel.abs.moe) is a half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
 
-https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d803d63be5c
+
 
 <br />
 
