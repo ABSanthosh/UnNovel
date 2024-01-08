@@ -17,18 +17,18 @@
 
 ## Introduction
 
-[UnNovel](https://unnovel.abs.moe) is a half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
-
-
+[UnNovel](https://unnovel.abs.moe) is a half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. If you're looking for a quarter-baked version, check out [Novel](https://novel.sh).
 
 <br />
 
 ## Setting Up Locally
+
 To set up Novel locally, you'll need to clone the repository and set up the following environment variables:
 
 ```
 VITE_PALM_API_KEY_PUBLIC=<your palm api key>
 ```
+
 _Note: You can get one from [here](makersuite.google.com)_
 
 To run the app locally, you can run the following commands:
@@ -41,6 +41,7 @@ yarn dev
 <br />
 
 ## Tech Stack
+
 UnNovel removed all the garbage from Novel and is now built with the following tech stack:
 
 - [Vite](https://vitejs.dev/) - A fast build tool for Vue.js
@@ -53,4 +54,5 @@ UnNovel removed all the garbage from Novel and is now built with the following t
 <br />
 
 ## Contributing
+
 Why?
