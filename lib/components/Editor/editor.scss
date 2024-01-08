@@ -59,7 +59,7 @@
     }
 
     &--left {
-      @include box(40px, 40px);
+      @include box(44px, 44px);
       @include make-flex();
       padding: 1.5px;
       flex-shrink: 0;
@@ -74,7 +74,7 @@
     }
 
     &--right {
-      @include box(100%, 40px);
+      @include box(100%, 44px);
       @include make-flex($align: flex-start);
       padding: 4px 0;
       max-width: 100%;
@@ -100,17 +100,34 @@
 }
 
 .UNEditor {
-  @include box(100%, 500px);
+  @include box(100%, auto);
+  min-height: 500px;
   overflow: auto;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
   box-shadow: #00000000 0px 0px 0px 0px, #00000000 0px 0px 0px 0px,
     #0000001a 0px 10px 15px -3px, #0000000d 0px 4px 6px -2px;
-  padding: 20px;
+  padding: 48px;
 
   &>.tiptap {
-    height: 100%;
+    // min-height: 100%;
     outline: none;
+
+    p.is-editor-empty:first-child::before {
+      color: #adb5bd;
+      content: attr(data-placeholder);
+      float: left;
+      height: 0;
+      pointer-events: none;
+    }
+
+    p.is-empty::before {
+      color: #adb5bd;
+      content: attr(data-placeholder);
+      float: left;
+      height: 0;
+      pointer-events: none;
+    }
   }
 
   ul[data-type="taskList"] {
@@ -153,9 +170,9 @@
   }
 
   pre {
-    background: #0d0d0d;
+    background: #f5f5f4;
     border-radius: 0.5rem;
-    color: #fff;
+    color: #292524;
     font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
 

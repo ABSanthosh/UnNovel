@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+<a href="https://unnovel.abs.moe">
+  <img alt="Novel is a Notion-style WYSIWYG editor with AI-powered autocompletions." src="./public/open-graph.png">
+  <h1 align="center">UnNovel</h1>
+</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#introduction"><strong>Introduction</strong></a> ·
+  <a href="#setting-up-locally"><strong>Setting Up Locally</strong></a> ·
+  <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
+  <a href="#contributing"><strong>Contributing</strong></a>
+</p>
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+[UnNovel](https://unnovel.abs.moe) is a half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d803d63be5c
 
-- Configure the top-level `parserOptions` property like this:
+<br />
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Setting Up Locally
+To set up Novel locally, you'll need to clone the repository and set up the following environment variables:
+
+```
+VITE_PALM_API_KEY_PUBLIC=<your palm api key>
+```
+_Note: You can get one from [here](makersuite.google.com)_
+
+To run the app locally, you can run the following commands:
+
+```
+yarn install
+yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<br />
+
+## Tech Stack
+UnNovel removed all the garbage from Novel and is now built with the following tech stack:
+
+- [Vite](https://vitejs.dev/) - A fast build tool for Vue.js
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
+- [SCSS](https://sass-lang.com/) - A CSS extension language
+- [TipTap](https://www.tiptap.dev/) - A renderless rich-text editor
+- [Google Gemini](https://ai.google.dev/tutorials/web_quickstart) - A machine learning model that powers the autocomplete feature
+
+<br />
+
+## Contributing
+Why?

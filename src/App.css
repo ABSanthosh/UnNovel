@@ -1,5 +1,23 @@
 #root {
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   padding: 2rem;
+}
+html {
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  background: transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border-radius: 1px;
 }
