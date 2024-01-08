@@ -29,7 +29,7 @@ To set up Novel locally, you'll need to clone the repository and set up the foll
 VITE_PALM_API_KEY_PUBLIC=<your palm api key>
 ```
 
-_Note: You can get one from [here](makersuite.google.com)_
+_Note: You can get one from [here](https://makersuite.google.com)_
 
 To run the app locally, you can run the following commands:
 
