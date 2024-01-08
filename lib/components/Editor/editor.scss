@@ -102,12 +102,18 @@
 .UNEditor {
   @include box(100%, auto);
   min-height: 500px;
+  max-width: 870px;
   overflow: auto;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
   box-shadow: #00000000 0px 0px 0px 0px, #00000000 0px 0px 0px 0px,
     #0000001a 0px 10px 15px -3px, #0000000d 0px 4px 6px -2px;
   padding: 48px;
+
+  @include respondAt(576px){
+    padding: 24px;
+    border-radius: 0px;
+  }
 
   &>.tiptap {
     // min-height: 100%;
