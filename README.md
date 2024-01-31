@@ -17,7 +17,7 @@
 
 ## Introduction
 
-[UnNovel](https://unnovel.abs.moe) is a half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. If you're looking for a quarter-baked version, check out [Novel](https://novel.sh).
+[UnNovel](https://unnovel.abs.moe) is a half-baked open-source Notion-style WYSIWYG editor with AI-powered autocompletions. If you're looking for a 3/4th-baked version, check out [Novel](https://novel.sh).
 
 <br />
 
